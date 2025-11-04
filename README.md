@@ -10,8 +10,6 @@ Clone this repository and you'll find three branches to work with:
 
 For each exercise, checkout the corresponding branch and follow the instructions.
 
----
-
 ## Exercise 1: The Happy Path 🎯
 
 **Goal:** Practice a standard feature branch workflow.
@@ -29,8 +27,6 @@ You're working on a new button component. Complete these steps:
 3. Stage and commit your changes with message: "update button component"
 4. Merge your feature branch into `main`
 
-**Note:** Use `git switch` to change branches throughout these exercises.
-
 **Success criteria:** Your changes are on `main`
 
 ## Tips & Hints 💡
@@ -45,14 +41,12 @@ You're working on a new button component. Complete these steps:
 
 ```bash
 git branch <name>          # Create branch
-git checkout <name>        # Switch branch
+git switch <name>          # Switch branch
 git add <file>             # Stage changes
 git commit -m "message"    # Commit changes
 git merge <branch>         # Merge branch
-git stash                  # Save uncommitted work
-git stash pop              # Retrieve stashed work
 git reset                  # Undo commits
 git log                    # View history
 ```
 
-**Remember:** You're working in a practice repo. It's okay to make mistakes - that's how you learn!
+# EXPERIMENT
